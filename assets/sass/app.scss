@@ -1,0 +1,40 @@
+// Table of Contents
+// ::Generic Layer
+// ::Vendor
+// ::Base Layer
+// ::Objects Layer
+// ::Components Layer
+// ::Trumps Layer
+
+/* ::Generic Layer */
+/* ----------------------------------------------------------- */
+
+@import '01-generic/settings';
+@import '01-generic/mixins';
+@import '01-generic/reset';
+
+/* ::Vendor Styles */
+/* ----------------------------------------------------------- */
+
+// @import '02-vendor/slick';
+
+/* ::Base Layer */
+/* ----------------------------------------------------------- */
+
+@import '03-base/base';
+@import '03-base/typography';
+
+/* ::Objects Layer */
+/* ----------------------------------------------------------- */
+
+// @import '04-objects/wrappers';
+
+/* ::Components Layer */
+/* ----------------------------------------------------------- */
+
+// @import '05-components/404';
+
+/* ::Overides Layer */
+/* ----------------------------------------------------------- */
+
+@import '06-trumps/trumps';

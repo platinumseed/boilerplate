@@ -1,0 +1,101 @@
+/* ::Display related */
+/* ----------------------------------------------------------- */
+
+.t-large-only {
+    display: none;
+
+    @include bp(large) {
+        display: block;    
+    }
+}
+
+.t-large-only-inline {
+    display: none;
+
+    @include bp(large) {
+        display: inline;    
+    }
+}
+
+.t-medium-only {
+    display: none;
+
+    @include bp(medium) {
+        display: block;
+    }
+
+    @include bp(large) {
+        display: none;
+    }
+}
+
+.t-medium-down {    
+
+    @include bp(large) {
+        display: none;
+    }
+}
+
+.t-small-only {
+    display: none;
+
+    @include bp(large) {
+        display: block;
+    }
+}
+
+
+
+/* ::Clearfixs and extends. Use which suits best */
+/* ----------------------------------------------------------- */
+
+.t-pie_clearfix {
+    @include pie-clearfix;
+}
+
+.t-relative {
+    position: relative;
+}
+
+.t-fixed {
+    position: fixed;
+}
+
+.t-absolute-centered {
+    margin: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.t-absolute-bottom {
+    position: absolute;
+    top: auto !important;
+    bottom: 0 !important;
+}
+
+.t-center-children-vert {
+    display: flex;
+    align-items: center;
+}
+
+/* ::Colors */
+/* ----------------------------------------------------------- */
+
+.t-white {
+    color: #ffffff;
+}
+
+/* ::Text fixes */
+/* ----------------------------------------------------------- */
+
+.t-center-text {
+    text-align: center;
+}
+
+.t-font-smaller {
+    font-size: 0.9em;
+}

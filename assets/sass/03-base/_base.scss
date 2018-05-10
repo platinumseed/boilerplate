@@ -1,0 +1,37 @@
+/* ::Base Styles  */
+/* ----------------------------------------------------------- */
+
+html {
+    
+}
+
+body {
+    
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;    
+
+    &:focus {
+        outline: none;
+    }
+}
+
+ol,
+ul {
+    padding-left: 1.4em;
+}
+
+input,
+button,
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
