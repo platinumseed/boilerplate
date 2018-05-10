@@ -9,8 +9,8 @@ var assetsdir_alljs = 'assets/js/**/*.js';
 var assetsdir_authorjs = 'assets/js/*.js';
 var assetsdir_js = 'assets/js';
 var assetsorder_js = [
-  assetsdir_js + '/vendor/jquery-3.2.1.min.js',
-  assetsdir_js + '/main.js' ];
+  assetsdir_js + '/app.js' 
+];
 
 var assetsdir_images = 'assets/img/**/*';
 
