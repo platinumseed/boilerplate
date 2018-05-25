@@ -5,7 +5,7 @@
     display: none;
 
     @include bp(large) {
-        display: block;    
+        display: block;
     }
 }
 
@@ -13,7 +13,7 @@
     display: none;
 
     @include bp(large) {
-        display: inline;    
+        display: inline;
     }
 }
 
@@ -29,7 +29,7 @@
     }
 }
 
-.t-medium-down {    
+.t-medium-down {
 
     @include bp(large) {
         display: none;
@@ -43,8 +43,6 @@
         display: block;
     }
 }
-
-
 
 /* ::Clearfixs and extends. Use which suits best */
 /* ----------------------------------------------------------- */

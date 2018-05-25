@@ -16,7 +16,9 @@
 
 /* ::Base Font Styles  */
 /* ----------------------------------------------------------- */
-*, html {
+
+*,
+html {
     // font-family: 'BrixSansRegular';
     -webkit-font-smoothing: antialiased;
 }
@@ -29,7 +31,7 @@ html {
     }
 
     @include bp(large) {
-        font-size: 17px;        
+        font-size: 17px;
     }
 }
 
@@ -45,8 +47,10 @@ sup {
     vertical-align: super;
     font-size: smaller;
 }
+
 /* ::Placeholder Text Styles  */
 /* ----------------------------------------------------------- */
+
 input::-webkit-input-placeholder {
     
 }
@@ -55,8 +59,9 @@ input::-moz-placeholder {
     
 }
 
-input:-moz-placeholder {   /* Older versions of Firefox */
-    
+/* Older versions of Firefox */
+
+input:-moz-placeholder {
 }
 
 input:-ms-input-placeholder {
