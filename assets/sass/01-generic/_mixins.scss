@@ -43,6 +43,11 @@
 /* ::Clearfix */
 /* ----------------------------------------------------------- */
 
+@mixin clearfix {
+    overflow: hidden;
+}
+
+  
 @mixin pie-clearfix {
 
     &::after {
